@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.42;
+    background-color:#17191C;
+    color:#FFF;
+
+}
+
+.header{
+    position: relative;
+    height: 129px;
+    top:21px;
+    left:384px;
+
+}
+.header.logo{
+    position: absolute;
+}
+.menu{
+    display: inline;
+    position: absolute;
+    top:21px;
+    left:439px;
+
+}
+.contacts{
+    position: flex;
+    left: 951px;
+}
+.contacts__phone{
+    color:#fff;
+}
+.contacts__workhours{
+    color:#FF3D00;
+    text-decoration-line: underline;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+}
+.menu__item{
+    display: inline;
+}
+.menu__title{
+    display: inline;
+    margin: 0px 54px 0px 0px;
+    font-size: 14px;
+    line-height: 19px;
+
+}
+.background-top{
+    position: absolute;
+    z-index: -20;
+}
+
+
+
+
+.footer{
+    position: relative;
+    
+}
+
+/*.main-caption{
+    position: absolute;
+    width: 776px;
+    height: 333px;
+    left: 572px;
+    top: 229px;
+}*/

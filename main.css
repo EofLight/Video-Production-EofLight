@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.42;
+    background-color:#17191C;
+    color:#FFF;
+
+}
+.wrapper{
+    position: relative;
+    width: 1920px;
+    height: 2930px;
+}
+
+.header{
+    position: absolute;
+    width: 1142px;
+    height: 129px;
+    left: 389px;
+    top: 21px;
+
+}
+.header .logo{
+    position: absolute;
+    width: 198px;
+    height: 46px;
+}
+.header .menu{
+    position: absolute;
+    height: 19px;
+    left: 439px;
+    top: 21px;
+
+}
+.menu__item{
+    display: inline;
+    margin: 0px 54px 0px 0px;
+}
+.menu__title{
+    display: inline;
+    font-size: 14px;
+    line-height: 19px;
+
+}
+.contacts{
+    position: absolute;
+    width: 191px;
+    height: 35px;
+    left: 951px;
+    top: 26.64px;
+    font-style: normal;
+}
+.contacts__phone{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35px;
+    color:#fff;
+    text-decoration-line:none
+}
+.contacts__workhours{
+    color:#FF3D00;
+    text-decoration-line: underline;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: right;
+}
+
+.background-top{
+    position: absolute;
+    width: 1910px;
+    height: 1059px;
+    left: 5px;
+    top: -5px;
+    z-index: -20;
+}
+
+
+
+
+.footer{
+    position: relative;
+    
+}
+
+/*.main-caption{
+    position: absolute;
+    width: 776px;
+    height: 333px;
+    left: 572px;
+    top: 229px;
+}*/

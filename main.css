@@ -434,29 +434,29 @@ p{
 }
 
 .socials__item.socials__item--telegram{
-    background-image: url(./images/telegram.svg);
+    background-image: url("./images/telegram.svg");
 }
 .socials__item.socials__item--telegram:hover{
-    background-image: url(./images/thover.svg);
+    background-image: url("./images/thover.svg");
 }
 
 .socials__item.socials__item--vk{
-    background-image: url(./images/vk.svg);
+    background-image: url("./images/vk.svg");
 }
 .socials__item.socials__item--vk:hover{
-    background-image: url(./images/vkhover.svg);
+    background-image: url("./images/vkhover.svg");
 }
 
 .socials__item.socials__item--facebook{
-    background-image: url(./images/f.svg);
+    background-image: url("./images/f.svg");
 }
 .socials__item.socials__item--facebook:hover{
-    background-image: url(./images/fhover.svg);
+    background-image: url("./images/fhover.svg");
 }
 
 .socials__item.socials__item--instagram{
-    background-image: url(./images/in.svg);
+    background-image: url("./images/in.svg");
 }
 .socials__item.socials__item--instagram:hover{
-    background-image: url(./images/inhover.svg);
+    background-image: url("./images/inhover.svg");
 }

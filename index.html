@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="wrapper main-page-wrapper">
         <section class="hero">
             <div class="container">
                  <!--<img src="./images/hero.png" alt="" class="background-top">-->
@@ -43,16 +43,18 @@
                             <h4 class="hero__subtitle"> 
                                 Креативный видеопродакшн полного цикла
                             </h4>
-                            <a href="#" class="btn" id="hero__btn">
-                                ПОДРОБНЕЕ
-                            </a>
+                            <div class="hero__btn-wrapper">
+                                <a href="#" class="btn btn--color--orange">
+                                    ПОДРОБНЕЕ
+                                </a>
+                            </div>
                         </div>
                     </div>
             </div>
         </section>
-        
+
+        <section class="section section__services">
         <div class="container">
-        
             <div class="services">
                 <ul class="services__list">
                     <li class="services__item service">
@@ -71,9 +73,12 @@
                                 Креатив и производство рекламы, документального и корпоративного контента.
                             </li>
                         </ul>
-                        <a href="#" class="btn service" id="hero__btn">
-                            ПОДРОБНЕЕ
-                        </a>
+                        <div class="service__btn-wrapper">
+                            <a href="#" class="btn btn--color--white">
+                                ПОДРОБНЕЕ
+                            </a>
+                        </div>
+                        
                     </li>
                     <li class="services__item service">
                         <img src="./images/clapper.svg" alt="Картинка для услуги - Видео-клип" class="service__img">
@@ -92,9 +97,11 @@
                                 видео? Прекрасно!
                             </li>
                         </ul>
-                        <a href="#" class="btn service" id="hero__btn">
-                            ПОДРОБНЕЕ
-                        </a>
+                        <div class="service__btn-wrapper">
+                            <a href="#" class="btn btn--color--white">
+                                ПОДРОБНЕЕ
+                            </a>
+                        </div>
                     </li>
                     <li class="services__item service">
                         <img src="./images/film.svg" alt="Картинка для услуги - Свадьба" class="service__img">
@@ -113,138 +120,146 @@
                                 снова и снова.
                             </li>
                         </ul>
-                        <a href="#" class="btn service" id="hero__btn">
-                            ПОДРОБНЕЕ
-                        </a>
+                        <div class="service__btn-wrapper">
+                            <a href="#" class="btn btn--color--white">
+                                ПОДРОБНЕЕ
+                            </a>
+                        </div>
                     </li>
                 </ul>
             </div>
 
         </div>
+    </section>
 
 
-
-
-            <div class="news-promotions">
-                <div class="new-promotions__title">
-                    <h2 class="new-promotions__title__text">
-                        НОВОСТИ И АКЦИИ
-                    </h2>
-                </div>
-                <div class="news-promotions__content">
-                    <ul class="news-promotions__list">
-                        <li class="news-promotions__item promotion">
-                            <img src="" alt="" class="promotion-img">
-                            <div class="promotion__date">
-                                Декабрь 2019
-                            </div>
-                            <h3 class="promotion__title">
-                                Снимаем ваш клип на 50% дешевле
-                            </h3>
-                            <div class="promotion__description">
-                                В честь Новогодних праздников мы раздаём огромные скидки, успейте забронировать даты
-                            </div>
-                        </li>
-                        <li class="news-promotions__item promotion">
-                            <img src="" alt="" class="promotion-img">
-                            <div class="promotion__date">
-                                Декабрь 2019
-                            </div>
-                            <h3 class="promotion__title">
-                                Акция для молодоженов 30%
-                            </h3>
-                            <div class="promotion__description">
-                                Успевайте забронировать даты. Пока ещё есть места на декабрь. Удачи и всех благ!
-                            </div>
-                        </li>
-                    </ul>
-                    <div class="paginator">
-                        <div class="paginator__display">Старница 1 из 7</div>
-                        <ul class="paginator__list">
-                            <li class="paginator__item">1</li>
-                            <li class="paginator__item">2</li>
-                            <li class="paginator__item">3</li>
-                            <li class="paginator__item">4</li>
-                            <li class="paginator__item">5</li>
-                            <li class="paginator__item">6</li>
-                            <li class="paginator__item">7</li>
+        <section class="section news-promotions">
+            <div class="container">
+                <div class="news-promotions">
+                    <div class="new-promotions__title">
+                        <h2 class="new-promotions__title__text">
+                            НОВОСТИ И АКЦИИ
+                        </h2>
+                    </div>
+                    <div class="news-promotions__content">
+                        <ul class="news-promotions__list">
+                            <li class="news-promotions__item promotion">
+                                <img src="./images/camera.svg" alt="camera-img" class="promotion-img">
+                                <div class="promotion__text-content">
+                                    <time class="promotion__date">
+                                        Декабрь 2019
+                                    </time>
+                                    <div class="promotion__title">
+                                        Снимем ваш клип на 50% дешевле
+                                    </div>
+                                    <div class="promotion__description">
+                                        В честь Новогодних праздников мы раздаём огромные скидки, успейте забронировать даты
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="news-promotions__item promotion">
+                                <img src="./images/wedding.svg" alt="" class="promotion-img promotion-img__wedding">
+                                <div class="promotion__text-content">
+                                    <time class="promotion__date">
+                                        Декабрь 2019
+                                    </time>
+                                    <div class="promotion__title">
+                                        Акция для молодоженов 30%
+                                    </div>
+                                    <div class="promotion__description">
+                                        Успевайте забронировать даты. Пока ещё есть места на декабрь. Удачи и всех благ!
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
+                        <div class="paginator">
+                            <div class="paginator__display">Страница 1 из 7</div>
+                            <ul class="paginator__list">
+                                <li class="paginator__item paginator__item--active"><a href="#" class="paginator__link">1</a></li>
+                                <li class="paginator__item"><a href="#" class="paginator__link">2</a></li>
+                                <li class="paginator__item"><a href="#" class="paginator__link">3</a></li>
+                                <li class="paginator__item"><a href="#" class="paginator__link">4</a></li>
+                                <li class="paginator__item"><a href="#" class="paginator__link">5</a></li>
+                                <li class="paginator__item"><a href="#" class="paginator__link">6</a></li>
+                                <li class="paginator__item"><a href="#" class="paginator__link">7</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+            <section class="section section__represent">
+                <div class="container">
+                    <div class="represent">
+                        <div class="represent__block">
+                            <div class="represent__content">
+                                <h2 class="represent__title">
+                                    О НАС
+                                </h2>
+                                <div class="represent__description-text">
+                                    <p>
+                                        Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. 
+                                    </p>
+                                </div>
+                                <div class="represent__btn-wrapper">
+                                    <a href="#" class="btn btn--color--orange">
+                                        ПОДРОБНЕЕ
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-            </div>
-            <div class="represent">
-                <img src="" alt="" class="represent__img">
-                <div class="represent__content">
-                    <h2 class="represent__title">
-                        О НАС
-                    </h2>
-                    <p class="represent__description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure iusto, dolor minima perspiciatis
-                        atque magnam laudantium. Architecto ab earum praesentium, quibusdam, alias rerum quisquam dolor
-                        ullam accusamus minima soluta neque?
-                    </p>
-                    <button class="detail" id="represent__detail">
-                        ПОДРОБНЕЕ
-                    </button>
-                </div>
-            </div>
+            </section>
         
-        <!--<div class="footer">
-            <a href="/" class="logo">
-                <img src="" alt="Логотип" class="logo__pic">
-            </a>
-            <nav class="menu footer">
-                <ul class="menu__list">
-                    <li class="menu__item">
-                        <div class="menu__title">
-                            Главная
+        <footer class="footer-container">
+            <div class="container footer-container__content">
+                <div class="footer">
+                    <a href="/" class="logo">
+                        <img src="./images/logo.png" alt="Логотип" class="logo__pic">
+                    </a>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Главная</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Услуги</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Отзывы</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                    <ul class="socials__list">
+                        <li class="socials__item socials__item--telegram">
+                            <a href="https://web.telegram.org/" target="_blank" rel="noopener noreferrer" class="socials__link"></a>
+                        </li>
+                        <li class="socials__item socials__item--vk">
+                            <a href="https://vk.com" target="_blank" rel="noopener noreferrer" class="socials__link"></a>
+                        </li>
+                        <li class="socials__item socials__item--facebook">
+                            <a href="https://ru-ru.facebook.com" target="_blank" rel="noopener noreferrer" class="socials__link"></a>
+                        </li>
+                        <li class="socials__item socials__item--instagram">
+                            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="socials__link"></a>
+                        </li>
+                    </ul>
+                    <address class="contacts">
+                        <div class="contacts__hint">
+                            Бесплатный звонок по России
                         </div>
-                    </li>
-                    <li class="menu__item">
-                        <div class="menu__title">
-                            Услуги
-                        </div>
-                    </li>
-                    <li class="menu__item">
-                        <div class="menu__title">
-                            Отзывы
-                        </div>
-                    </li>
-                </ul>
-            </nav>
-            <ul class="socials-list">
-                <li class="socials_item social">
-                    <a href="https://web.telegram.org/" target="_blank" rel="noopener noreferrer" class="social">
-                        <img src="" alt="telegram_icon" class="social__img">
-                    </a>
-                </li>
-                <li class="socials_item social">
-                    <a href="https://vk.com" target="_blank" rel="noopener noreferrer" class="social">
-                        <img src="" alt="vk_icon" class="social__img">
-                    </a>
-                </li>
-                <li class="socials_item social">
-                    <a href="https://ru-ru.facebook.com" target="_blank" rel="noopener noreferrer" class="social">
-                        <img src="" alt="facebook_icon" class="social__img">
-                    </a>
-                </li>
-                <li class="socials_item social">
-                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="social">
-                        <img src="" alt="instagram_icon" class="social__img">
-                    </a>
-                </li>
-            </ul>
-            <address class="contacts">
-                <div class="contacts__hint">
-                    Бесплатный звонок по России
+                        <a href="tel:+78007003030" class="contacts__phone">
+                            8 800 700 30 30
+                        </a>
+                    </address>
                 </div>
-                <a href="tel:+78007003030" class="contacts__phone">
-                    8 800 700 30 30
-                </a>
-            </address>
-        </div>-->
-    </div>
+            </div>
+        </footer>
+    
+    
 </body>
 
 </html>

@@ -1,0 +1,21 @@
+.container.footer-container__content{
+    border-top: 1px solid #353538;
+}
+.footer{
+    height: 92.64px;
+    position: relative;
+    margin-bottom: 54px;
+}
+.footer .menu{
+    left:327px;
+    top:59px;
+}
+.footer .logo{
+    top:42px;
+    bottom: 3px;
+}
+.footer .contacts{
+    right: 2px;
+    top:43px;
+    bottom: 0px;
+}

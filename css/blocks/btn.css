@@ -1,0 +1,32 @@
+.btn{
+    display: inline-block;
+    position: relative;
+    left: 295px;
+    border-radius: 35px;
+    padding: 18px 53px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn--color--orange{
+    background: #FF5500;
+    color: #FFFFFF;
+}
+.btn--color--orange:hover{
+    background: #FF3D00;
+    box-shadow: 0 0 4px 0 rgba(255,61,0,0.8);
+}
+.btn--color--white{
+    background: #fff;
+    color: #FF5500;
+    border: 2px solid #FF5500;
+}
+.btn--color--white:hover{
+    color: #FFFFFF;
+    background: #FF3D00;
+    box-shadow: 0 0 4px 0 rgba(255,61,0,1);
+}

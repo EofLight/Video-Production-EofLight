@@ -1,0 +1,31 @@
+.hero{
+    margin-bottom: 233px;
+}
+.hero__content{
+    display: inline-block;
+    position: relative;
+    width: 780px;
+    left:181px;
+}
+.hero__text-section{
+    display: block;
+    position: relative;
+    
+}
+.hero__title{
+    text-align: center;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    margin-bottom: 18px;
+}
+.hero__subtitle{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 43px;
+}
+.hero__btn-wrapper{
+    display: block;
+}

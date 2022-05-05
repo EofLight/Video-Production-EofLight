@@ -1,7 +1,10 @@
 .header{
-    position: relative;
-    top:10px;
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
     height: 129px;
-    margin-bottom: 89px;
+    margin-bottom: 105px;
+    padding-top: 26px;
 
 }
+

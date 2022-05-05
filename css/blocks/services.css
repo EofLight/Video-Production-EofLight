@@ -1,63 +1,73 @@
-.services{
-    width: 1143px;
+/*.services{
+}*/
+.services__list{
+    display: flex;
+    justify-content: space-between;
 }
+
 .services__item{
-    display: inline-block;
-    position: relative;
-    width: 362px;
+    /*display: flex;*/
+    /*flex-direction: column;
+    justify-content: space-between;*/
+    padding: 36px 34px 42px 22px ;
+    /*position: relative;*/
+    width: calc(100% / 3 - 15px);
     min-height: 476px;
     background: #FFFFFF;
     border-radius: 5px;
     color:#666666;
-    margin-right: 23px;
 }
-.services__item:last-child{
-    margin:0;
-}
+/*
+.services__item:nth-child(3){
+    flex-grow: 3;
+}*/
+
 .service__img{
-    position: absolute;
-    top:36px;
-    left:29px;
+ 
+    width: 26%;
+    margin-bottom: 29px;
+   
 }
+
 .service__name{
-    position: absolute;
-    top:146px;
-    left:22px;
+
     font-weight: 700;
     font-size: 32px;
-    line-height: 44px;
+    line-height: 43px;
     color:#000;
+    margin-bottom: 16px;
 }
+
 .service__texts{
-    display: inline-block;
-    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 52px;
+    /*position: absolute;
     top:205px;
-    left:22px;
+    left:22px;*/
     
 }
 .service__workers{
     width: 102px;
-    height: 41px;
+    
+    
 
 }
 .service__days{
-    position:absolute;
-    top:0px;
-    left: 182px;
+
     width: 123px;
-    height: 41px;
+
 }
 .service__description{
-    position: relative;
+    padding-top: 25px;
     width: 306px;
     height: 66px;
-    top: 26px;
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
 }
 .service__btn-wrapper .btn{
-    position: absolute;
-    top: 366px;
-    left:25px;
+    /*position: absolute;*/
+    display: flex;
 }

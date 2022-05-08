@@ -1,6 +1,5 @@
 .btn{
-    display: flex;
-    width: 197px;
+    max-width: 197px;
     align-self: center;
     justify-self: center;
     position: relative;

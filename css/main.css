@@ -14,6 +14,17 @@
 @import url('./blocks/represent.css');
 @import url('./blocks/footer.css');
 @import url('./blocks/socials.css');
+@import url('./blocks/top-line.css');
+@import url('./blocks/page-title.css');
+@import url('./blocks/breadcrumbs.css');
+@import url('./blocks/page-content.css');
+@import url('./blocks/attendances.css');
+@import url('./blocks/partners.css');
+@import url('./blocks/inner-section.css');
+@import url('./blocks/inner-footer.css');
+
+/*Services Page*/
+
 
 
 

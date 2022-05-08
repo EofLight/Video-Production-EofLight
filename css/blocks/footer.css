@@ -1,21 +1,42 @@
 .container.footer-container__content{
     border-top: 1px solid #353538;
 }
-.footer{
+.footer-container__section{
     height: 92.64px;
-    position: relative;
     margin-bottom: 54px;
 }
-.footer .menu{
-    left:327px;
-    top:59px;
+.footer{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+
 }
+.footer--left{
+    display: flex;
+    width: 587px;
+    justify-content: space-between;
+    align-items: end;
+}
+.footer--right{
+    display: flex;
+    width: 439px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
 .footer .logo{
     top:42px;
     bottom: 3px;
 }
-.footer .contacts{
-    right: 2px;
-    top:43px;
-    bottom: 0px;
+
+.footer__contacts{
+    height: 54%;
+    justify-content: space-between;
 }
+
+.footer__contacts--attendances {
+    height: 90%;
+    justify-content: space-between;
+}
+

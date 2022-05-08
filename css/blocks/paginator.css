@@ -1,17 +1,19 @@
 
 .paginator{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .paginator__list{
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
 }
 .paginator__display{
-    display: inline-block;
     margin-right: 23px;
 }
 .paginator__item{
-    display: inline-block;
     vertical-align: middle;
+    text-align: center;
 }
 /*.paginator__item--active .paginator__link{
     background: #FF5500;
@@ -26,8 +28,26 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 32px;
+    
 }
 .paginator__link:hover{
     background: #FF5500;
 
 }
+
+.paginator--theme--light{
+    color:#000;
+    
+}
+.paginator__link--light{
+    color: #000;
+    
+}
+.paginator__link--light:hover{
+    color: #FFF;
+    
+}
+.paginator__attendances{
+    margin-bottom: 90px;
+}
+

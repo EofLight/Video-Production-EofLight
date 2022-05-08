@@ -1,0 +1,36 @@
+.attendances{
+    margin-bottom: 17px;
+}
+.attendance{
+    display: flex;
+    padding: 0px 0px 47px 0px;
+}
+
+.attendance__img{
+    width: 41%;
+    margin-right: 4.3%;
+}
+
+.attendance__content{
+    flex:1;
+}
+.attendance__title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 31px;
+    color: #000000;
+    padding-top: 10px;
+
+}
+.attendance__desc{
+   
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 50px;
+}
+.attendance__btn{
+    padding: 18px 55px;
+    height: 55px;
+}

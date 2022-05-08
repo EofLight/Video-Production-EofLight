@@ -1,5 +1,7 @@
+.represent{
+    display: flex;
+}
 .represent:before, .represent__block{
-    display: inline-block;
     vertical-align: top;
 }
 .represent:before{
@@ -9,14 +11,17 @@
     background: url("../../images/cameraman.svg") center center / cover no-repeat;
 }
 .represent__block{
-    width: 785px;
+    max-width: 785px;
+    width: 100%;
+    
     margin-left: -141px;
     margin-top: 100px;
 }
 .represent__content{
     background: #FFFFFF;
     border-radius: 5px;
-    width: 785px;
+    width: 100%;
+    min-height: 456px;
     color:#060606;
     padding: 70px 81px;
     
@@ -32,13 +37,14 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 27px;
-    width: 502px;
-    margin-bottom: 40px;
+    max-width: 502px;
+    margin-bottom: 58px;
 }
 .represent__btn-wrapper .btn--color--orange{
-    width: 170px;
+    max-width: 170px;
+    min-width: 170px;
     text-align: center;
-    padding: 18px;
+    padding: 18px 40px;
     left: 0;
 }
 .represent__description-text p{

@@ -43,7 +43,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 49px;
+    margin-bottom: 25px;
     /*position: absolute;
     top:205px;
     left:22px;*/
@@ -61,12 +61,12 @@
 
 }
 .service__description{
-    padding-top: 25px;
     width: 306px;
     height: 66px;
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
+    margin-bottom: 29px;
 }
 .service__btn-wrapper .btn{
     /*position: absolute;*/

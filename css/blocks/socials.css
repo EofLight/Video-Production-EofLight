@@ -9,7 +9,7 @@
     
     vertical-align: middle;
     margin-right: 6px;
-    margin-bottom: 6px;
+    background-repeat: no-repeat;
 }
 .socials__item:last-child{
     margin-right: 0px;

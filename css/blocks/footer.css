@@ -2,8 +2,8 @@
     border-top: 1px solid #353538;
 }
 .footer-container__section{
-    height: 92.64px;
-    margin-bottom: 54px;
+    padding: 37px 0px;
+    margin-bottom: 17px;
 }
 .footer{
     display: flex;
@@ -31,9 +31,12 @@
 }
 
 .footer__contacts{
-    height: 54%;
+    height: 90%;
+    padding: 0px 4px;
     justify-content: space-between;
+
 }
+
 
 .footer__contacts--attendances {
     height: 90%;

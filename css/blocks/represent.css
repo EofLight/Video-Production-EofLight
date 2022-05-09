@@ -13,7 +13,6 @@
 .represent__block{
     max-width: 785px;
     width: 100%;
-    
     margin-left: -141px;
     margin-top: 100px;
 }
@@ -24,6 +23,8 @@
     min-height: 456px;
     color:#060606;
     padding: 70px 81px;
+    display: flex;
+    flex-direction: column;
     
 }
 .represent__title{
@@ -38,17 +39,16 @@
     font-size: 16px;
     line-height: 27px;
     max-width: 502px;
-    margin-bottom: 58px;
+    margin-bottom: 43px;
 }
-.represent__btn-wrapper .btn--color--orange{
-    max-width: 170px;
-    min-width: 170px;
-    text-align: center;
+.represent__btn-wrapper .btn{
     padding: 18px 40px;
-    left: 0;
+}
+.represent__btn-wrapper{
+    display: flex;
 }
 .represent__description-text p{
-    margin-bottom: 20px;
+        margin-bottom: 20px;
 }
 .represent__description-text p:last-child{
     margin-bottom: 0px;

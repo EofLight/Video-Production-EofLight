@@ -1,0 +1,50 @@
+.sign-page-wrapper {
+    background: url(../../images/bg.svg) center top no-repeat;
+    display: flex;
+}
+
+.sign {
+    background: url(../../images/rec.svg) center center no-repeat;
+    display: flex;
+    /* margin: 157px 250px; */
+    margin: auto;
+    min-width: 1128px;
+    height: 643px;
+    justify-content: center;
+    align-items: center;
+    /* width: auto;*/
+}
+
+.sign-content {
+    min-width: 538px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    animation: signAnimation .9s forwards;
+}
+
+
+.sign-content .btn {
+    padding: 18px 58px;
+}
+
+@keyframes signAnimation {
+
+    from{
+        transform: scale(.1) rotate(30deg);
+    }
+
+    50%{
+        transform: rotate(-10deg);
+    }
+
+    70%{
+        transform: rotate(3deg);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+
+}

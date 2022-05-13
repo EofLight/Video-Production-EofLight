@@ -1,0 +1,56 @@
+.form__row{
+    display: flex;
+    margin-bottom: 26px;
+}
+.form__row--last{
+    margin-bottom: 23px;
+}
+.form__input{
+    flex:1;
+    margin-right: 30px;
+    border-radius: 5px;
+    border: none;
+    background: #fff;
+    padding: 20px 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1A1B1E;
+
+}
+
+.form__input:last-child{
+
+    margin-right: 0px;
+}
+.form__input:placeholder{
+    color: #666666;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+.form__input--texarea{
+    height: 235px;
+    
+}
+.form__controls{
+    display: flex;
+    margin-bottom: 19px;
+}
+.form__controls-title{
+    width: 38%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+.form__btns{
+    display: flex;
+    justify-content: flex-end;
+}
+.form__btn{
+    margin-right: 17px;
+    padding: 18px 41px;
+}
+.form__btn:last-child{
+    margin-right: 0px;
+}

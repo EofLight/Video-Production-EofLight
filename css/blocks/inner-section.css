@@ -12,3 +12,11 @@
     line-height: 65px;
     margin-bottom: 58px;
 }
+.inner-section__title--reviews{
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 50px;
+}

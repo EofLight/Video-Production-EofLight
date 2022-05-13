@@ -25,6 +25,7 @@
     font-size: 13px;
     line-height: 20px;
     font-style: normal;
+    position: relative;
 }
 .contacts__hint{
     color: #9A9A9A;

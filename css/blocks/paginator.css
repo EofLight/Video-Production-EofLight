@@ -28,6 +28,7 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 32px;
+    transition: .3s;
     
 }
 .paginator__link:hover{
@@ -40,6 +41,7 @@
     
 }
 .paginator__link--light{
+    transition: .3s;
     color: #000;
     
 }

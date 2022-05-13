@@ -11,9 +11,20 @@
     text-decoration: none;
 }
 
+.btn--color--gray{
+    background: #8E8E8E;
+    color: #FFFFFF;
+    transition: .3s;
+}
+.btn--color--gray:hover{
+    background: #2B2B2B;
+    color: #FFFFFF;
+}
+
 .btn--color--orange{
     background: #FF5500;
     color: #FFFFFF;
+    transition: .3s;
 }
 .btn--color--orange:hover{
     background: #FF3D00;
@@ -23,6 +34,7 @@
     background: #fff;
     color: #FF5500;
     border: 2px solid #FF5500;
+    transition: .3s;
 }
 .btn--color--white:hover{
     color: #FFFFFF;

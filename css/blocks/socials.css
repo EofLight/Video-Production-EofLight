@@ -6,41 +6,153 @@
     
 }
 .socials__item{
-    
+    position: relative;
     vertical-align: middle;
-    margin-right: 6px;
-    background-repeat: no-repeat;
-}
-.socials__item:last-child{
-    margin-right: 0px;
 }
 .socials__link{
+    position: relative;
     width: 36px;
     height: 36px;
     display: block;
     text-decoration: none;
-    background: center center / no-repeat;
+    z-index: 100;
 }
 
-.socials__item.socials__item--telegram{
-    background-image: url("../../images/telegram.svg");
+.socials__item.socials__item--telegram:after{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 36px; height: 36px;
+    background: url('../../images/icons/sprite.png') -10px -290px;
+    opacity: 0;
+    transition: .4s;
+    
 }
-.socials__item.socials__item--telegram:hover{
-    background-image: url("../../images/thover.svg");
+.socials__item.socials__item--telegram:before{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 36px; height: 36px;
+    background: url('../../images/icons/sprite.png') -10px -234px;
+    opacity:1;
+    transition: .4s;
+    
+}
+.socials__item.socials__item--telegram:hover:after{
+   
+    opacity: 1;
+}
+.socials__item.socials__item--telegram:hover:before{
+    opacity: 0; 
 }
 
-.socials__item.socials__item--vk{
-    background-image: url("../../images/vk.svg");
+.socials__item.socials__item--vk:after{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 36px; height: 36px;
+    background: url('../../images/icons/sprite.png') -10px -402px;
+    opacity: 0;
+    transition: .4s;
+    
 }
-.socials__item.socials__item--vk:hover{
-    background-image: url("../../images/vkhover.svg");
+.socials__item.socials__item--vk:before{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 36px; height: 36px;
+    background: url('../../images/icons/sprite.png') -10px -346px;
+    opacity:1;
+    transition: .4s;
+    
+}
+.socials__item.socials__item--vk:hover:after{
+   
+    opacity: 1;
+}
+.socials__item.socials__item--vk:hover:before{
+    opacity: 0; 
 }
 
-.socials__item.socials__item--facebook{
-    background-image: url("../../images/f.svg");
+.socials__item.socials__item--facebook:after{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 36px; height: 36px;
+    background: url('../../images/icons/sprite.png') -10px -66px;
+    opacity: 0;
+    transition: .4s;
+    
 }
-.socials__item.socials__item--facebook:hover{
-    background-image: url("../../images/fhover.svg");
+.socials__item.socials__item--facebook:before{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 36px; height: 36px;
+    background: url('../../images/icons/sprite.png') -10px -10px;
+    opacity:1;
+    transition: .4s;
+    
+}
+.socials__item.socials__item--facebook:hover:after{
+   
+    opacity: 1;
+}
+.socials__item.socials__item--facebook:hover:before{
+    opacity: 0; 
+}
+
+
+.socials__item.socials__item--instagram:after{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 36px; height: 36px;
+    background: url('../../images/icons/sprite.png') -10px -178px;
+    opacity: 0;
+    transition: .4s;
+    
+}
+.socials__item.socials__item--instagram:before{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 36px; height: 36px;
+    background: url('../../images/icons/sprite.png') -10px -122px;
+    opacity:1;
+    transition: .4s;
+    
+}
+.socials__item.socials__item--instagram:hover:after{
+   
+    opacity: 1;
+}
+.socials__item.socials__item--instagram:hover:before{
+    opacity: 0; 
 }
 
 .socials__item.socials__item--instagram{
